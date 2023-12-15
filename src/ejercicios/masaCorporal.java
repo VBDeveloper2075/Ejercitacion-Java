@@ -18,7 +18,7 @@ public class masaCorporal {
         float imCorporal;
         Scanner scan=new Scanner(System.in);
 
-        System.out.println("Bienvenido a la Calculadora de Masa Corporal \n Haz click en Enter e Ingresa los datos solicitados: ");
+        System.out.println("\n\n Bienvenido a la Calculadora de Masa Corporal \n Ingresa los datos solicitados: ");
         System.out.println("\n Ingresa tu Peso en kg:  ");
         peso= scan.nextFloat();
         System.out.println("\n Ingresa tu Altura en m:  ");
