@@ -9,8 +9,7 @@ import java.util.Scanner;
 public class masaCorporal {
 
     static float calcularIndMaCorporal(float peso, float altura){
-        float imCorporal=peso/(altura*altura);
-        return imCorporal;
+        return peso/(altura*altura);
     }
 
     public static void main(String[] args){
@@ -31,15 +30,15 @@ public class masaCorporal {
 
         if (imCorporal<20){
             System.out.println("Usted se encuentra en Mal Estado dijo Misa");
-        }else if (imCorporal>=20&&imCorporal<22){
+        }else if (imCorporal<22){
             System.out.println("Usted se encuentra en Bajo de Peso");
-        }else if (imCorporal>=22&&imCorporal<25){
+        }else if (imCorporal<25){
             System.out.println("Usted se encuentra en su Peso Normal");
-        }else if (imCorporal>=25&&imCorporal<30){
+        }else if (imCorporal<30){
             System.out.println("Usted se encuentra con Sobrepeso");
-        }else if (imCorporal>=30&&imCorporal<40){
+        }else if (imCorporal<40){
             System.out.println("Usted se encuentra con Sobrepeso Cronico");
-        }else if (imCorporal>=40){
+        }else {
             System.out.println("Usted debe ser Hospitalizado");
         }
     }
