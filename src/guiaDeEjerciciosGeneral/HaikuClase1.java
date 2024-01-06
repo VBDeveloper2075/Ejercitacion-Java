@@ -8,11 +8,11 @@ public class HaikuClase1 {
         String haiku = "Dev Haiku.C0dig0 danz4, err0res 3nseñan,desarr0ll0 av4nza, l1neas traz4n.Desafí0s emergen, cima de saber,ideas brot4n, jardín del aprender.En binari0, crece, pr0gram4 el ser.";
         haiku = haiku.replace("0", "o").replace("4", "a").replace("3", "e").replace("1", "i");
 
-        String titleColor = "\033[0;34m"; // Blue color
+        String textColor = "\033[0;35m"; // violeta color
         String resetColor = "\033[0m"; // Reset color
 
-        System.out.println(titleColor + "Dev Haiku" + resetColor);
-        System.out.println(haiku);
+        System.out.println(textColor + "Dev Haiku" + resetColor);
+        System.out.println(textColor + haiku + resetColor);
     }
 }
 
