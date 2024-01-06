@@ -13,7 +13,7 @@ public class Calculadora {
 
                 double num1 = Double.parseDouble(strNum1);
                 double num2 = Double.parseDouble(strNum2);
-                double resultado = 0;
+                double resultado;
 
                 switch (operacion) {
                         case "+":
