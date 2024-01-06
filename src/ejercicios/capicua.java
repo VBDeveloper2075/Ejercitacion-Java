@@ -6,13 +6,8 @@ Crea una aplicación que pida un número por teclado y después comprobaremos si
 
 package ejercicios;
 import javax.swing.*;
-import java.lang.Object;    // Para usar el método toString
 
 public class capicua {
-
-    static int esCapicua(int numero){
-        return (numero);
-    }
 
     public static void main(String[] args) {
         String numero = JOptionPane.showInputDialog("Ingrese un numero: ");
@@ -20,9 +15,10 @@ public class capicua {
         String numero2 = sb.reverse().toString();
 
         if (numero.equals(numero2)){
-            System.out.println("El numero " + numero + " es capicua");
+            JOptionPane.showMessageDialog(null, "El numero " + numero + " es capicua");
         } else {
-            System.out.println("El numero " + numero + " no es capicua");
+            JOptionPane.showMessageDialog(null, "El numero " + numero + " no es capicua");
         }
+
     }
 }
