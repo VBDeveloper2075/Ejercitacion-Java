@@ -6,7 +6,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class masaCorporal {
+public class MasaCorporal {
 
     static float calcularIndMaCorporal(float peso, float altura){
         return peso/(altura*altura);

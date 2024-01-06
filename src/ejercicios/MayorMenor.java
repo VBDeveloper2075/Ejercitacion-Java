@@ -6,7 +6,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class mayorMenor {
+public class MayorMenor {
     public static void main(String[] args) {
         int num1, num2, num3, num4, num5;
 

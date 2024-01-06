@@ -7,7 +7,7 @@ Crea una aplicación que pida un número por teclado y después comprobaremos si
 package ejercicios;
 import javax.swing.*;
 
-public class capicua {
+public class Capicua {
 
     public static void main(String[] args) {
         String numero = JOptionPane.showInputDialog("Ingrese un numero: ");
