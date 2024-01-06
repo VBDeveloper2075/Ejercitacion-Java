@@ -2,7 +2,7 @@
 Escribir un algoritmo que permita calcula el indice de masa corporal ingresando peso y altura.
 */
 
-package ejercicios;
+package nivelatorio;
 
 import java.util.Scanner;
 

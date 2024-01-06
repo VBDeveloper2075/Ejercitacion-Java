@@ -2,7 +2,7 @@
 Realizar un programa que simule una calculadora, donde realice las operaciones básicas (suma, resta, multiplicación, división), el usuario debe primero ingresar dos valores, y especificar con un carácter la operación a realizar.
  */
 
-package ejercicios;
+package nivelatorio;
 import javax.swing.*;
 
 public class Calculadora {

@@ -2,7 +2,7 @@
 Realizar un programa que indique el mayor y menor de 5 valores numericos
 */
 
-package ejercicios;
+package nivelatorio;
 
 import java.util.Scanner;
 

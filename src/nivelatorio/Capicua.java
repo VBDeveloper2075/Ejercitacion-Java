@@ -4,7 +4,7 @@ Crea una aplicación que pida un número por teclado y después comprobaremos si
         TIP: Una forma de pasar un número a un array es esta Character.getNumericValue(cadena.charAt(posicion)).
 */
 
-package ejercicios;
+package nivelatorio;
 import javax.swing.*;
 
 public class Capicua {

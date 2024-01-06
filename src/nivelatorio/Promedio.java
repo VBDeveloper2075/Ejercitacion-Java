@@ -2,7 +2,7 @@
 Escribir un algoritmo que permita calcula el promedio de tres notas. Si es menor a 6 muestre:Reprobado, si es mayor que 6 y menor que 9:Aprobado, si es mayor que 9: Sobresaliente.
 */
 
-package ejercicios;
+package nivelatorio;
 
 import java.util.Scanner;
 
