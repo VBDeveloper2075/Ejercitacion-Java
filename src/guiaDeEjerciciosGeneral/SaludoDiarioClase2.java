@@ -25,3 +25,30 @@ public class SaludoDiarioClase2 {
         }
     }
 }
+
+/*
+Ejercicios teóricos de la clase 2:
+1) Clasifica y menciona al menos 2 ejemplos de Operadores.
+dos ejemplos de operadores son:
+
+Operador aritmético: %
+El operador módulo (%) devuelve el resto de una división. Por ejemplo, 10 % 3 devuelve 1 porque
+10 dividido por 3 es 3 y sobra 1. En gral se usa para ver si un númeroes par o impar.
+
+Operador de asignación %=
+Se trata de un operador de asignación compuesto que toma el módulo del operando del lado
+izquierdo por el operando del lado derecho y luego asigna el resultado al operando del lado izquierdo. Por ejemplo:
+
+int a = 10; // asignamos el valor 10 a la variable 'a'
+a %= 3; // a ahora es 1, porque 10 modulo 3 es 1
+System.out.println(a); // imprimirá 1
+es como hacer la siguiente operación: a = a % 3  pero de forma resumida.
+
+2) ¿Cual es la principal diferencia entre las sentencias ‘if’ y switch?
+La principal diferencia es que la sentencia if permite evaluar cualquier tipo de expresión booleana, mientras que la
+sentencia switch solo permite evaluar los posibles valores de una sola variable.
+
+3) Explica con tus palabras el funcionamiento de la estructura de control de iteración ‘foreach’.
+   El bucle foreach en Java se utiliza para iterar sobre elementos de una colección (como un arreglo o una lista) sin necesidad de conocer la longitud de la misma.
+ Es una forma de "solo lectura" de iterar a través de una colección o array, ya que no se puede modificar la durante la iteración, porque no tiene condicion.
+ */
