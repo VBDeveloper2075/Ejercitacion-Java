@@ -8,22 +8,22 @@ import javax.swing.JOptionPane;
 public class JuegoPreguntasClase2 {
 
     public static void main(String[] args) {
-            // Preguntas
+        // Preguntas
         String[] preguntas = {
-                    "¿Cuál es la capital de Francia?",
-                    "¿Cuál es la capital de España?",
-                    "¿Cuál es la capital de Italia?",
-                    "¿Cuál es la capital de Alemania?",
-                    "¿Cuál es la capital de Portugal?"
+                "¿Cuál es la capital de Francia?",
+                "¿Cuál es la capital de España?",
+                "¿Cuál es la capital de Italia?",
+                "¿Cuál es la capital de Alemania?",
+                "¿Cuál es la capital de Portugal?"
         };
 
-            // Opciones de respuesta
+        // Opciones de respuesta
         String[][] opciones = {
-                    {"Paris", "Madrid", "Roma"},
-                    {"Lisboa", "Madrid", "Berlin"},
-                    {"Roma", "Paris", "Lisboa"},
-                    {"Berlin", "Madrid", "Paris"},
-                    {"Lisboa", "Roma", "Berlin"}
+                {"Paris", "Madrid", "Roma"},
+                {"Lisboa", "Madrid", "Berlin"},
+                {"Roma", "Paris", "Lisboa"},
+                {"Berlin", "Madrid", "Paris"},
+                {"Lisboa", "Roma", "Berlin"}
         };
 
         // Respuestas correctas (índices de las opciones correctas)
@@ -41,7 +41,7 @@ public class JuegoPreguntasClase2 {
             }
         }
 
-            JOptionPane.showMessageDialog(null, "Tu puntuación es: " + puntuacion);
+        JOptionPane.showMessageDialog(null, "Tu puntuación es: " + puntuacion);
     }
 
 }
