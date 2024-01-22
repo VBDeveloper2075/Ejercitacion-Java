@@ -11,7 +11,7 @@ Ejercicios
 ....JOptionPane: Ventajas: Es mas amigable para el usuario. Desventajas: Necesita importar la libreria javax.swing, por lo que consume mas recursos.
 
 3 . ¿Puedo imprimir un objeto en pantalla con SOUT directamente?
-System.out ofrece varios métodos para imprimir datos en la consola, como println, print, y printf.
+....System.out ofrece varios métodos para imprimir datos en la consola, como println, print, y printf.
 Se pueden imprimir objetos utilizando su método toString(). Si tienes una clase personalizada, puedes sobrescribir el  método toString() para controlar cómo se imprime el objeto.
 
 4 . Escribe un programa que calcule el salario semanal de un trabajador teniendo en cuenta que las horas ordinarias (40 primeras horas de trabajo) se pagan a 12 euros la hora. A partir de la hora 41, se pagan a 16 euros la hora(Se recibe las horas totales por teclado).
