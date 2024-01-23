@@ -86,6 +86,7 @@ public class ConversionesCl1 {
                 JOptionPane.showMessageDialog(null, "Tu valor en pesos es: " + peso);
                 break;
         }
+    
     }
 
         // Respuestas correctas (índices de las opciones correctas)
