@@ -1,6 +1,6 @@
 package ejerciciosDeLaClase;
 
-//usar una coleccion de tipo Map para almacenar los datos de los empleados de una empresa: apellido y dni, luego
+//en una coleccion almacenar los datos de los empleados de una empresa,
 // ordenarlos de menor a mayor por dni y mostrarlos por pantalla
 
 import java.util.HashMap;
